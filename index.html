@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[</>The_Root_Guy</>]</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo1.png">
+
+    <!-- Using Bootstrap through CDN -->
+    <link style="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <section id="particles-js" class="container">
+      <a href=#> <img src="./assets/images/profile_pic.jpeg" alt="Profile Picture" class=profile> </a>
+      <!-- <h1>Hello World!</h1> -->
+      <h1> I'm <span class=type></span></h1>
+      <h2 class="hideIt heading-2">| Programmer | Developer | FOSS Enthusiastic |</h2>
+      <ul class="connect_with_me">
+        <li><a href="https://github.com/sourabh1031"><span style="color:black;"><i class="fab fa-github fa-3x"></i></span></a></li>
+        <li><a href="mailto:sourabhpruthi10@gmail.com"><span style="color:darkgrey;"><i class="fas fa-envelope fa-3x"></i></span></a></li>
+        <!-- <li><a href="https://www.facebook.com/sourabh.pruthi.90"><span style="color:#4267B2;"><i class="fab fa-facebook-square fa-5x"></i></span></a></li> -->
+        <li><a href="https://www.linkedin.com/in/sourabh-pruthi-677432121/?originalSubdomain=in"><span style="color:#0077B5;"><i class="fab fa-linkedin-in fa-3x"></i></span></a></li>
+        <li><a href="https://twitter.com/sourabh1031"><span style="color:#00a3cc;"><i class="fab fa-twitter fa-3x"></i></span></a></li>
+        <li><a href="https://www.quora.com/profile/Sourabh-Pruthi-2"><span style="color:darkred;"><i class="fab fa-quora fa-3x"></i></span></a></li>
+      </ul>
+      <a href="./countdown.html" target="_blank"><button type="button" class="btn" id="update_button">Check for Updates</button></a>
+    </section>
+
+    <!-- Using jquery library through CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Jquery Plugins and other Libraries through CDN -->
+    <!-- <script type =
+    "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js"></script>
+    <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+
+    <!-- Particle Js -->
+    <script type="text/javascript" src="./assets/js/particles.js"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+
+    <!-- Typed Js -->
+    <script type="text/javascript" src="./assets/js/typed.js"></script>
+    <script type="text/javascript">
+         function lift() {
+             $('.type').addClass("heading").fadeIn(150).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(1400);
+             $('.hideIt').delay(3800).addClass('showIt');
+         }
+         var typed = new Typed(".type", {
+               strings: ["Programmer","Developer","FOSS Enthusiastic","Sourabh Pruthi"],
+               smartBackspace: true,
+               typeSpeed: 50,
+               backSpeed: 50,
+             });
+        lift();
+        // $(function() {
+        //     $(".type").typed({
+        //         strings: ["a Web Developer.", "a Data Analyst.", " Python Enthusiastic.","Rashmi Nagpal."],
+        //         typeSpeed: 30,
+        //         startDelay: 500,
+        //         backDelay: 250,
+        //         callback: function() {
+        //             lift();
+        //         }
+        //     });
+          // function lift() {
+          //       $('.type').addClass("heading").fadeIn(150).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(1400);
+          //       $('.hideIt').delay(3800).addClass('showIt');
+          // }
+        //});
+    </script>
+    <!-- Custom JavScript -->
+    <script type="text/javascript" src="./assets/js/custom.js"></script>
+</body>
+</html>
