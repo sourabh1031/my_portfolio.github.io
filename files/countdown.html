@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="./assets/images/logo1.png">
   <style>
   body{
-    /* background-image: url("/assets/images/bg_update.jpg"); */
+    background-image: url("/assets/images/bg_update.jpg");
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -34,7 +34,7 @@
   }
   </style>
 </head>
-<body background="../assets/images/bg_update.jpg">
+<body>
   <section id="snow_fall">
         <table class="countdown-timer">
           <tr class="info">
@@ -58,7 +58,7 @@
     (function countDown(){
       console.log("Hello");
       var now = new Date();
-      var eventDate = new Date(2018,11,29);
+      var eventDate = new Date(2018,11,31);
 
       var currentTime = now.getTime();
       var eventTime = eventDate.getTime();
@@ -86,7 +86,7 @@
       setTimeout(countDown,1000);
     })();
   </script>
-  <script src="../assets/js/particles.js"></script>
-  <script src="../assets/js/app1.js"></script>
+  <script src="./assets/js/particles.js"></script>
+  <script src="./assets/js/app1.js"></script>
 </body>
 </html>
